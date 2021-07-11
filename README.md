@@ -1,2 +1,7 @@
-# bioSite
-The bioSite of Hope Schwartz made by Kayden Linner.
+# CSD 340 Web Development with HTML and CSS
+
+## Contributers
+* Kayden Linner
+* Chris Soriano
+
+Course repository for CSD-340 at Bellevue.
