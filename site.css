@@ -131,12 +131,20 @@ img {
     border: 3px solid #32BCB6;
 }
 
-#portrait {
-    margin-top: -10px;
-}
-
 #hobbiesOne .card, #hobbiesTwo .card, #hobbiesThree .card {
     height: 300px;
+}
+
+#portrait {
+    margin: 0.5% 4% 4% 0;
+}
+
+#containerTwo .card {
+    height: 400px;
+}
+
+#kayaking, #skating, #hiking{
+    margin: 2% 4% 4% 0;
 }
 
 
