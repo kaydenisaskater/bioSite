@@ -35,8 +35,18 @@ header {
     font-style: italic;
 }
 
+#title a {
+    text-decoration: none;
+    color: black;
+}
+
+#title a:hover {
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
 img {
     float: right;
+    border: 3px solid #32BCB6;
 }
 /*body styling basics end*/
 
@@ -76,9 +86,12 @@ footer > p{
 }
 
 #navbar > ol > li > a:hover {
+    padding: 4px;
     text-decoration: none;
-    color:#C3BD50;
+    color:#FFC15C;
     font-weight: 400;
+    border: 2px solid #F5BFBC;
+    border-radius: 6px;
 }
 /*navbar end*/
 
@@ -102,11 +115,6 @@ footer > p{
 }
 /*standard styling on the cards end*/
 
-/*styling on all images*/
-#senior-show, #painting, #graduation, #portrait, #hiking, #skating, #kayaking {
-    border: 3px solid #32BCB6;
-}
-
 /*styling on portrait image*/
 #portrait {
     margin: 5% 5% 5% 5%;
@@ -122,6 +130,7 @@ footer > p{
 #container {
     border: 4px solid #32BCB6;
     background-color: #F5BFBC;
+    border-radius: 10px;
     margin: 2%;
 }
 
@@ -135,6 +144,8 @@ footer > p{
 
 /*container two styling start*/
 #containerTwo .card {
+    border: 4px solid #32BCB6;
+    border-radius: 10px;
     padding: 10px;
     margin: 2%;
 }
@@ -147,6 +158,8 @@ footer > p{
 
 /*container three styling start*/
 #containerThree .card {
+    border: 4px solid #32BCB6;
+    border-radius: 10px;
     padding: 10px;
     margin: 2%;
     display: inline-block;
