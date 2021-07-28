@@ -9,9 +9,14 @@ Colors
 -F5BFBC
 */
 
+/*body styling basics start*/
 body {
     margin: 0;
     font-family: 'Spartan', Verdana, Arial, sans-serif;
+}
+
+p {
+    line-height: 2;
 }
 
 h1 {
@@ -24,16 +29,18 @@ header {
     background-color: #32BCB6;
     text-align: left;
     padding: 50px;
-
 }
 
-.sticky-footer {
-    bottom: 0;
-    position: absolute;
-    width: 100%;
-    height: 2em;
+#title {
+    font-style: italic;
 }
 
+img {
+    float: right;
+}
+/*body styling basics end*/
+
+/*footer start*/
 footer {
     right: 0pt;
     left: 0pt;
@@ -42,17 +49,14 @@ footer {
     height: 2em;
 }
 
-
 footer > p{
     float: right;
     margin-right: 12px;
     padding-bottom: 12px;
 }
+/*footer end*/
 
-#title {
-    font-style: italic;
-}
-
+/*navbar start*/
 #navbar {
     width: 100%;
     overflow: hidden;
@@ -76,39 +80,9 @@ footer > p{
     color:#C3BD50;
     font-weight: 400;
 }
+/*navbar end*/
 
-#container, #hobbiesOne, #hobbiesTwo, #hobbiesThree {
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-right: 5%;
-    padding: 10px;
-}
-
-#container .card {
-    border: none;
-    padding: 10px;
-    margin: 2% 5% 5% 2%;
-}
-
-#containerTwo .card {
-    padding: 10px;
-    margin: 2% 5% 5% 2%;
-}
-
-#container {
-    border: 4px solid #32BCB6;
-    background-color: #F5BFBC;
-}
-
-
-#photo {
-    float: right;
-}
-
-img {
-    float: right;
-}
-
+/*standard styling on the cards start*/
 .card {
     background-color: #F5BFBC;
     border: 4px solid #32BCB6;
@@ -126,25 +100,60 @@ img {
     width: 67%;
     margin: 5px;
 }
+/*standard styling on the cards end*/
 
+/*styling on all images*/
 #senior-show, #painting, #graduation, #portrait, #hiking, #skating, #kayaking {
     border: 3px solid #32BCB6;
 }
 
-#hobbiesOne .card, #hobbiesTwo .card, #hobbiesThree .card {
-    height: 300px;
-}
-
+/*styling on portrait image*/
 #portrait {
-    margin: 0.5% 4% 4% 0;
+    margin: 5% 5% 5% 5%;
 }
 
-#containerTwo .card {
-    height: 400px;
-}
-
+/*styling on hobbies images*/
 #kayaking, #skating, #hiking{
-    margin: 2% 4% 4% 0;
+    margin: 2%;
 }
 
+/*container styling start*/
+/*container one styling start*/
+#container {
+    border: 4px solid #32BCB6;
+    background-color: #F5BFBC;
+    margin: 2%;
+}
 
+#container .card {
+    border: none;
+    padding: 10px;
+    margin: 2%;
+}
+/*container one styling end*/
+
+/*container two styling start*/
+#containerTwo .card {
+    padding: 10px;
+    margin: 2%;
+}
+
+#containerTwo .card .card-title {
+    width: 100%;
+    text-align: center;
+}
+/*container two styling end*/
+
+/*container three styling start*/
+#containerThree .card {
+    padding: 10px;
+    margin: 2%;
+    display: inline-block;
+}
+
+#containerThree .card .card-title {
+    width: 100%;
+    text-align: center;
+}
+/*container three styling end*/
+/*container styling end*/
